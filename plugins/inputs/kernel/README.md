@@ -33,7 +33,7 @@ ctxt 115315
 The number of context switches that the system underwent.
 
 btime 769041601
-boot time, in seconds since the Epoch, 1970-01-01 00:00:00 +0000 (UTC).
+boot time, in seconds (milliseconds?) since the Epoch, 1970-01-01 00:00:00 +0000 (UTC).
 
 processes 86031
 Number of forks since boot.
