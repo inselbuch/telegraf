@@ -102,7 +102,7 @@ Plugin minimum tested version: 1.16
 An OPC UA node ID may resemble: "n=3;s=Temperature". In this example:
 
 - n=3 is indicating the `namespace` is 3
-- s=Temperature is indicting that the `identifier_type` is a string and `identifier` value is 'Temperature'
+- s=Temperature is indicating that the `identifier_type` is a string and `identifier` value is 'Temperature'
 - This example temperature node has a value of 79.0
 To gather data from this node enter the following line into the 'nodes' property above:
 
