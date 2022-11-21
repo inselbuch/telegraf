@@ -99,7 +99,7 @@ func main() {
             t *= 2
             metric.AddField("count", t)
         default:
-            fmt.Fprintf(os.Stderr, "count is not an unknown type, it's a %T\n", c)
+            fmt.Fprintf(os.Stderr, "count is not an known type, it's a %T\n", c)
             os.Exit(1)
         }
         b, err := serializer.Serialize(metric)
